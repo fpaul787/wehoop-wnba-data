@@ -12,6 +12,11 @@ def extract_csv_from_gz(directory):
         if filename.endswith(".csv.gz"):
             input_path = os.path.join(directory, filename)
             output_filename = filename.replace(".csv.gz", ".csv")
+
+            # check if the output file already exists
+            if os.path.exists(os.path.join(directory, output_filename)):
+                print(f"Output file {output_filename} already exists. Skipping extraction.")
+                continue
             output_path = os.path.join(directory, output_filename)
 
             try:
