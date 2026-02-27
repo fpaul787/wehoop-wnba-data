@@ -2,7 +2,7 @@ name: Sync Fork with Upstream
 
 on:
   schedule:
-    - cron: '30 7 * * *'  # 30 minutes after WNBA data update
+    - cron: '30 7 * * *'
   workflow_dispatch:
 
 jobs:
@@ -19,12 +19,14 @@ jobs:
           ref: main
           fetch-depth: 0
 
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
       - name: Sync fork with upstream
         run: |
-          git remote add upstream https://github.com/sportsdataverse/wehoop-wnba-data.git
+          git remote add upstream https://github.com/sportsdataverse/wehoop-wnba-data.git || true
           git fetch upstream
           git merge -X theirs upstream/main
           git push origin main
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
