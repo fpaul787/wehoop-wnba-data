@@ -23,8 +23,9 @@ jobs:
         run: |
           git remote add upstream https://github.com/sportsdataverse/wehoop-wnba-data.git
           git fetch upstream
-          git merge -X theirs upstream/main
-          git push origin main
+          git checkout main
+          git reset --hard upstream/main
+          git push origin main --force
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
