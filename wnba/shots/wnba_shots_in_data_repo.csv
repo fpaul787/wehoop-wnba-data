@@ -1,0 +1,24 @@
+season,row_count,generated_at_utc,source_endpoint
+2026,2047,2026-05-11 23:18:09 UTC,derived from espn_wnba pbp
+2026,2047,2026-05-11 23:45:40 UTC,derived from espn_wnba pbp
+2026,2047,2026-05-12 00:35:09 UTC,derived from espn_wnba pbp
+2024,45480,2026-05-12 00:54:24 UTC,derived from espn_wnba pbp
+2026,2047,2026-05-12 01:02:37 UTC,derived from espn_wnba pbp
+2025,53525,2026-05-12 01:14:22 UTC,derived from espn_wnba pbp
+2024,45480,2026-05-12 01:22:10 UTC,derived from espn_wnba pbp
+2025,53525,2026-05-12 01:26:31 UTC,derived from espn_wnba pbp
+2026,2047,2026-05-12 01:29:57 UTC,derived from espn_wnba pbp
+2026,2047,2026-05-12 09:29:47 UTC,derived from espn_wnba pbp
+2026,2047,2026-05-12 10:37:26 UTC,derived from espn_wnba pbp
+2026,2047,2026-05-13 09:51:44 UTC,derived from espn_wnba pbp
+2026,2575,2026-05-13 10:37:13 UTC,derived from espn_wnba pbp
+2026,2575,2026-05-14 09:27:52 UTC,derived from espn_wnba pbp
+2026,3269,2026-05-14 10:40:45 UTC,derived from espn_wnba pbp
+2026,3269,2026-05-15 09:39:33 UTC,derived from espn_wnba pbp
+2026,3609,2026-05-15 10:37:01 UTC,derived from espn_wnba pbp
+2026,3609,2026-05-16 08:32:43 UTC,derived from espn_wnba pbp
+2026,4369,2026-05-16 10:37:08 UTC,derived from espn_wnba pbp
+2026,4369,2026-05-17 08:59:17 UTC,derived from espn_wnba pbp
+2026,4369,2026-05-17 10:36:56 UTC,derived from espn_wnba pbp
+2026,5130,2026-05-18 10:37:32 UTC,derived from espn_wnba pbp
+2026,5130,2026-05-18 10:57:31 UTC,derived from espn_wnba pbp
